@@ -8,7 +8,7 @@ public class Climb {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static int climbStair(int n) {
+	public static int climbStairRe(int n) {
 		if (n == 0) {
 			return 1;
 
@@ -25,7 +25,7 @@ public class Climb {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println(climbStair(sc.nextInt()));
+		System.out.println(climbStairRe(sc.nextInt()));
 	}
 
 }
